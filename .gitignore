@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VSCode
+.vscode/
+
+model_zoo/
+sample/
+output/
+temp/
+core*
+config_*
+*.txt
+*.onnx

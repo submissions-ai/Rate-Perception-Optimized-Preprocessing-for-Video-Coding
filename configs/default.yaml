@@ -1,0 +1,19 @@
+prefix: "RFDN_default"
+manual_seed: 42
+dataset_root: "/data/datasets/sr_dataset/general"
+batch_size: 64
+num_workers: 32
+patch_size: 192
+enhance_hr: False
+to_yuv: False
+network:
+  scale: 2
+  pretrained: null
+loss: ""
+gpus: [0, 1]
+learning_rate: 1e-4
+scheduler_milestones: [100000, 200000, 300000, 400000]
+scheduler_gamma: 0.5
+steps_val: 5000
+output_dir: "output/default"
+dist: True
